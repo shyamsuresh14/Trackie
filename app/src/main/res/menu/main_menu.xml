@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/service_item"
+        android:title="@string/Service">
+        <menu>
+            <item
+                android:id="@+id/start_item"
+                android:title="@string/start" />
+            <item
+                android:id="@+id/stop_item"
+                android:title="@string/stop" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/manage_item"
+        android:title="@string/tracker" />
+    <item
+        android:id="@+id/traceable_item"
+        android:title="@string/traceable" />
+    <item
+        android:id="@+id/loc_alarm"
+        android:title="@string/loc_alarm" />
+    <item
+        android:id="@+id/cloud_storage_item"
+        android:title="@string/cloudstorage" />
+    <item
+        android:id="@+id/reset_item"
+        android:title="@string/reset" />
+    <item
+        android:id="@+id/exit_item"
+        android:title="@string/exit" />
+</menu>
